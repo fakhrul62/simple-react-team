@@ -1,0 +1,12 @@
+.newsletter{
+    background-image: url('/src/assets/bg-shadow.png');
+    background-position: center;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    border-radius: 16px;
+}
+.bg-gradient{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(6,9,26,1) 50%);
+}

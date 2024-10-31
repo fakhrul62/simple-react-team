@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/qRsZjBX/Virat-Kohli.jpg",
+    "name": "Virat Kohli",
+    "country": "India",
+    "position": "Batsman",
+    "rating": 95.0,
+    "price": 2500000
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/d0XbRpY/benstokes.webp",
+    "name": "Ben Stokes",
+    "country": "England",
+    "position": "All Rounder",
+    "rating": 89.5,
+    "price": 2000000
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/tZZwp1y/Kane-Williamson.jpg",
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "position": "Batsman",
+    "rating": 93.2,
+    "price": 2300000
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/QnJqLPn/Rashid-Khan.jpg",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "position": "Bowler",
+    "rating": 91.7,
+    "price": 1500000
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/M8sg7D3/Pat-Cummins.jpg",
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "position": "Bowler",
+    "rating": 88.4,
+    "price": 1750000
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/tHt4LW4/Babar-Azam.jpg",
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "position": "Batsman",
+    "rating": 94.6,
+    "price": 2400000
+  }
+]
