@@ -14,7 +14,9 @@ const Footer = () => {
                 className="input input-bordered join-item"
                 placeholder="Enter Your Email"
               />
-              <button className="btn join-item">Subscribe</button>
+              <button className="btn join-item text-black bg-gradient-to-r from-[#F14749] to-[#FBCA57]">
+                Subscribe
+              </button>
             </div>
           </div>
         </div>
@@ -39,7 +41,7 @@ const Footer = () => {
             <a className="link link-hover">Contact</a>
           </nav>
           <nav>
-            <h6 className="footer-title text-white">Subscribe</h6>
+            <h6 className="footer-title text-white ">Subscribe</h6>
             <p className="text-white">
               Subscribe to our newsletter for the latest updates.
             </p>
@@ -48,7 +50,9 @@ const Footer = () => {
                 className="input input-bordered join-item"
                 placeholder="Enter Your Email"
               />
-              <button className="btn join-item">Subscribe</button>
+              <button className="btn join-item text-black bg-gradient-to-r from-[#F14749] to-[#FBCA57]">
+                Subscribe
+              </button>
             </div>
           </nav>
         </footer>

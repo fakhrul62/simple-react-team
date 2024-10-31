@@ -5,20 +5,19 @@ import { IoMdStarOutline } from "react-icons/io";
 
 
 const SinglePlayer = ({ player, handleChoose }) => {
-  const {image, name, country, position, rating, price } = player;
   return (
     <div className="border border-zinc-300 rounded-lg p-5">
-      <img src={image} className="h-52 w-full object-cover rounded-lg" />
+      <img src={player.image} className="h-52 w-full object-cover rounded-lg" />
       <div className="flex items-center gap-2 mt-5 text-lg font-semibold">
-        <FaUser /> {name}
+        <FaUser /> {player.name}
       </div>
       <div className="flex items-center justify-between mt-2">
         <div className="flex items-center gap-2 text-zinc-500">
-          <FaFlag /> {country}
+          <FaFlag /> {player.country}
         </div>
         <div className="flex items-center">
           <span className="bg-gray-200 px-4 py-1 rounded-xl font-medium">
-            {position}
+            {player.position}
           </span>
         </div>
       </div>
@@ -26,13 +25,15 @@ const SinglePlayer = ({ player, handleChoose }) => {
       <div className="flex items-center justify-between">
         <span className="font-semibold">Rating</span>
         <span className="flex items-center font-semibold">
-          <IoMdStarOutline /> {rating}
+          <IoMdStarOutline /> {player.rating}
         </span>
       </div>
       <div className="flex items-center justify-between mt-1">
-        <span className="flex items-center font-semibold">Price: ${price}</span>
+        <span className="flex items-center font-semibold">
+          Price: ${player.price}
+        </span>
         <button
-          onClick={() => handleChoose(price)}
+          onClick={() => handleChoose(player)}
           className="bg-white border-zinc-400 border px-5 py-2 font-medium rounded-lg hover:bg-[#06091A] hover:text-white duration-150"
           type="button"
         >

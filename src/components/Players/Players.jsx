@@ -7,6 +7,7 @@ import AvailablePlayers from "../AvailablePlayers/AvailablePlayers";
 import SelectedPlayers from "../SelectedPlayers/SelectedPlayers";
 
 const Players = ({ handleChoose }) => {
+  const getChosenPlayer = JSON.parse(localStorage.getItem("choosenPlayer"));
   return (
     <div className="w-10/12 mx-auto mb-16">
       <div>
@@ -17,7 +18,7 @@ const Players = ({ handleChoose }) => {
               <TabList>
                 <Tab>Available</Tab>
                 <Tab>
-                  Selected (<span>0</span>)
+                  Selected (<span>{getChosenPlayer.length}</span>)
                 </Tab>
               </TabList>
             </div>
