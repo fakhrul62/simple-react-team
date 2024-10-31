@@ -1,8 +1,17 @@
-# React + Vite
+# Dream Team
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a responsive and interactive web application built using modern React tools. It leverages advanced component libraries and customizable UI frameworks for an engaging user experience.
 
-Currently, two official plugins are available:
+## Technologies Used
+- **React** + Vite
+- **Tailwind CSS**
+- **DaisyUI**
+- **React Tabs**
+- **React Icons**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+1. **Dynamic UI Components**: Integrated with powerful component libraries like React Tabs and DaisyUI, providing modular and interactive interface elements.
+2. **Responsive Design**: Tailwind CSS ensures a fully responsive and mobile-friendly layout across all device types.
+3. **Icon Library**: React Icons enriches the design, adding a wide selection of icons to enhance visual storytelling and user interactions.
+
